@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Assignment 1</title>
+			<link rel="stylesheet" type="text/css" href="styles.css" />
+	</head>
+<body>
+	<!-- Wrapping the content of the form around a table so it doesn't look terrible. -->
+	<table border="0" align="center">
+		<tr>
+			<!-- All of the information will be submitted via form (method = post means its going to post to a server -->
+			<form method="post" action="confirm.php">
+				<td align="right">Student info:</td></tr>
+				<td align="right">First name: <input type="text" name="fname" size=30></td></tr>
+				<td align="right">Last name: <input type="text" name="lname" size=30></td></tr>
+				<td align="right">Email: <input type="text" name="email" size=30></td></tr>
+				<td align="right">Birthdate: <input type="text" name="birthdate" size=30 value="mm/dd/yyyy"></td></tr><br/><br/>
+				<td></td><td></td>
+				
+	<!-- Wrapped a div around the table to move it all at once -->			
+	<div id="move">
+		<tr>
+			<td align="right">Course info:</td></tr>
+			
+		<tr>
+			<td align="right">
+				First Course:
+					<select name="course1">
+					  <option value="Course">Select course #1</option>
+					  <option value="Math">Math</option>
+					  <option value="Biology">Biology</option>
+					  <option value="Chemistry">Chemistry</option>
+					  <option value="Physics">Physics</option>
+					  <option value="English">English</option>
+					  <option value="French">French</option>
+					  <option value="Phys-ed">Phys-ed</option>
+					  <option value="Science">Science</option>
+					  <option value="History">History</option>
+					  <option value="Geography">Geography</option>
+					  <option value="Economics">Economics</option>
+					  <option value="Music">Music</option>
+					</select>
+			</td></tr>
+			
+		<tr>
+			<td align="right">
+				Second Course:
+					<select name="course2">
+					  <option value="Course">Select course #2</option>
+					  <option value="Math">Math</option>
+					  <option value="Biology">Biology</option>
+					  <option value="Chemistry">Chemistry</option>
+					  <option value="Physics">Physics</option>
+					  <option value="English">English</option>
+					  <option value="French">French</option>
+					  <option value="Phys-ed">Phys-ed</option>
+					  <option value="Science">Science</option>
+					  <option value="History">History</option>
+					  <option value="Geography">Geography</option>
+					  <option value="Economics">Economics</option>
+					  <option value="Music">Music</option>
+					</select>
+			</td></tr>
+			
+		<tr>
+			<td align="right">
+				Third Course:
+					<select name="course3">
+					  <option value="Course">Select course #3</option>
+					  <option value="Math">Math</option>
+					  <option value="Biology">Biology</option>
+					  <option value="Chemistry">Chemistry</option>
+					  <option value="Physics">Physics</option>
+					  <option value="English">English</option>
+					  <option value="French">French</option>
+					  <option value="Phys-ed">Phys-ed</option>
+					  <option value="Science">Science</option>
+					  <option value="History">History</option>
+					  <option value="Geography">Geography</option>
+					  <option value="Economics">Economics</option>
+					  <option value="Music">Music</option>
+					</select>
+			</td></tr>
+
+		<tr>
+			<td align="right">
+				Forth Course:
+					<select name="course4">
+					  <option value="Course">Select course #4</option>					
+					  <option value="Math">Math</option>
+					  <option value="Biology">Biology</option>
+					  <option value="Chemistry">Chemistry</option>
+					  <option value="Physics">Physics</option>
+					  <option value="English">English</option>
+					  <option value="French">French</option>
+					  <option value="Phys-ed">Phys-ed</option>
+					  <option value="Science">Science</option>
+					  <option value="History">History</option>
+					  <option value="Geography">Geography</option>
+					  <option value="Economics">Economics</option>
+					  <option value="Music">Music</option>
+					</select>
+			</td></tr>
+	</div>
+	<br/>
+		<tr>
+			<td align="right">Student Photo:<br/></tr>					
+					<tr><td><input TYPE="file" NAME="img" SIZE="30"></td></tr>
+					<tr><td><input type="SUBMIT" name="submit" value="Upload Photo"></td></tr>
+			</td>
+		</tr>
+
+		<tr>
+			<td align="right"><input type="submit" name="submit" value="Submit"></td>
+		</tr>
+
+</form>
+
+</table>
+
+</body>
+</html>	
