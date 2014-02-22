@@ -17,7 +17,7 @@ $course2 = $_POST["course2"];
 $course3 = $_POST["course3"];
 $course4 = $_POST["course4"];
 
-// populating the email msg
+// populating the email msg -- this doesn't seem to populate in the email for some weird reason...
 $emailMsg = "<html>
 		<head>
 		<title>Student Courses</title>
